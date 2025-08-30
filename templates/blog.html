@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - MedMatch</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="30" height="30"
+                class="d-inline-block align-top mr-2 rounded-circle">MedMatch</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/blog">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" style="text-align: justify; padding: 20px;">
+        <h1>Our Blog</h1>
+        <p> Welcome to the MedMatch Blog — your trusted source for insights into the evolving world of pharmaceuticals
+            and digital health innovation. Here, we explore the intersection of medicine and technology, covering topics
+            such as drug alternatives, healthcare trends, AI in medical recommendations, and patient empowerment. Our
+            goal is to provide valuable content that informs, educates, and inspires both healthcare professionals and
+            everyday users navigating their medical journeys. Stay updated with expert tips, research highlights, and
+            feature updates from the MedMatch team. </p>
+    </div>
+</body>
+
+</html>

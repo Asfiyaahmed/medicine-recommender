@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MedMatch</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="30" height="30"
+                class="d-inline-block align-top mr-2 rounded-circle">MedMatch</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" style="text-align: justify; padding: 20px;">
+        <h2>About MedMatch</h2>
+        <p>MedMatch is an intelligent medicine recommendation platform designed to assist users in finding effective
+            alternatives to commonly used drugs. Built using advanced similarity algorithms and natural language
+            processing, MedMatch analyzes user input to recommend medicines that match therapeutic purposes. Whether
+            you're seeking substitutes due to availability issues, affordability concerns, or treatment preferences,
+            MedMatch provides data-driven suggestions. With a user-friendly interface and focus on
+            accessibility, our goal is to empower individuals to make informed healthcare decisions through technology.
+        </p>
+    </div>
+</body>
+
+</html>
