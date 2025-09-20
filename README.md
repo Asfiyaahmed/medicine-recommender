@@ -6,4 +6,5 @@ Features
 - Dark-themed interface
 - Navigation bar with Home, About, Contact, and Blog
 - Logo visible on all pages
-For reference visit screenshots 151 and 152
+-
+- For reference visit screenshots 151 and 152
