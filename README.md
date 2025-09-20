@@ -1,6 +1,6 @@
 This is a Flask-based web application that recommends medicines based on user input.  
 The project has a dark-themed UI and includes pages like Home, About, Contact, and Blog.
-Features
+- Features
 - Medicine recommendation based on symptoms
 - Flask backend
 - Dark-themed interface
